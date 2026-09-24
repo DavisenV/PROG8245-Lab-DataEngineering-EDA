@@ -27,3 +27,12 @@ Creating and explaining insightful visualizations
     .\.venv\Scripts\Activate.ps1
     pip install -r requirements.txt
     ```
+4. Connection String is included in the .env file.
+    The .env file contains the connection string to the cloud SQL database. Make sure to keep this file secure and do not share it publicly.
+    There .gitignore file is included to prevent the .env file from being tracked by Git.
+    The .env file will be zipped with password and emailed to you. Please unzip the file and place it in the root directory of the project.
+
+5. Run the Jupyter Notebook to start exploring the data:
+    ```
+    jupyter notebook
+    ```
